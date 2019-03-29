@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Савостин](https://up.htmlacademy.ru/adaptive/16/user/622197).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Громов](https://htmlacademy.ru/profile/id6170).
 
 ---
 
