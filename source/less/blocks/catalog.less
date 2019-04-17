@@ -3,32 +3,30 @@
 }
 
 .catalog__title {
-  font-size: 36px;
-  line-height: 60px;
+  font-family: @alternate-font;
+  font-size: @fs-h1;
+  line-height: 1.667em;
 }
 
 .catalog__list {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
+  .no-list();
 }
 
 .catalog__more-link {
-  font-size: 16px;
-  line-height: 20px;
+  font-family: @alternate-font;
+  font-size: @fs;
+  line-height: 1.25em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .catalog__more-text {
-  font-family: "Arial", sans-serif;
-  color: #444444;
-  font-size: 12px;
-  line-height: 16px;
+  font-family: @main-font;
+  font-size: @fs-sm-text;
+  line-height: 1.33em;
 }
 
 .catalog__more-show {
-  color: #444444;
-  background-color: #f2f2f2;
+  font-family: @alternate-font;
+  background-color: @concrete;
 }
