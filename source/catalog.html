@@ -3,36 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="#" width="10" height="10" alt="logo cat-energy">
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="192" height="38" alt="logo cat-energy">
       </a>
-      <a class="page-header__name" href="#">
-        <img class="page-header__logo-text" src="#" alt="cat-energy">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle main-nav__toggle--close" type="button">Открыть меню</button>
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Каталог продукции</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Подбор программы</a>
-          </li>
-        </ul>
-      </nav>
+      <button class="page-header__toggle page-header__toggle--close" type="button">Открыть меню</button>
     </header>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="index.html">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--active">Каталог продукции</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="form.html">Подбор программы</a>
+        </li>
+      </ul>
+    </nav>
     <section class="catalog">
       <h1 class="catalog__title">Каталог продукции</h1>
       <ul class="catalog__list">
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/chicken-small-mobile@1x.jpg" width="140" height="144" alt="chicken-small">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -57,7 +55,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/chicken-big-mobile@1x.jpg" width="140" height="144" alt="chicken-big">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -82,7 +80,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/fish-small-mobile@1x.jpg" width="140" height="144" alt="fish-small">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -107,7 +105,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/fish-big-mobile@1x.jpg" width="140" height="144" alt="fish-big">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -132,7 +130,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/buckwheat-small-mobile@1x.jpg" width="140" height="144" alt="buckwheat-small">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -157,7 +155,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/buckwheat-big-mobile@1x.jpg" width="140" height="144" alt="buckwheat-big">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -182,7 +180,7 @@
         </li>
         <li class="catalog__item card">
           <a class="card__image-link" href="#">
-            <img class="card__photo" src="#" width="10" height="10" alt="product photo">
+            <img class="card__photo" src="img/rice-small-mobile@1x.jpg" width="140" height="144" alt="rice-small">
           </a>
           <div class="card__content">
             <a class="card__title-link" href="#">
@@ -214,22 +212,29 @@
     </section>
     <footer class="page-footer">
       <a class="page-footer__name" href="#">
-        <img class="page-footer__logo-text" src="#" alt="cat-energy">
+        <img class="page-footer__logo-text" src="img/logo-footer.svg" width="128" height="24" alt="cat-energy">
       </a>
       <ul class="page-footer__social-list social">
         <li class="social__item">
-          <a class="social__link social__link--vk" href="#">Вконтакте</a>
+          <a class="social__link social__link--vk" href="#">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link-insta" href="#">Инстаграмм</a>
+          <a class="social__link social__link--insta" href="#">
+            <span class="visually-hidden">Инстаграмм</span>
+          </a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link-fb" href="#">Фейсбук</a>
+          <a class="social__link social__link--fb" href="#">
+            <span class="visually-hidden">Фейсбук</span>
+          </a>
         </li>
       </ul>
       <p class="page-footer__copyright">
         <span class="page-footer__copyright-title">HTML Academy</span>
-        <img class="page-footer__copyright__logo" src="#" width="10" height="10" alt="HTML Academy">
+        <a class="page-footer__copyright-logo" href="https://htmlacademy.ru/intensive/adaptive">
+        </a>
       </p>
     </footer>
   </body>
