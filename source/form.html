@@ -25,6 +25,116 @@
         </li>
       </ul>
     </nav>
+    <section class="program">
+      <h1 class="program__title">Подбор программы</h1>
+      <p class="program__description">Заполните анкету и мы подберем программу для вашего кота</p>
+      <form class="program__form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="program__data-field">
+          <h2 class="visually-hidden">Данные кота</h2>
+          <ul class="program__data-passport">
+            <li class="program__passport-item">
+              <label>
+                <span class="program__passport-label">Имя:*</span>
+                <input type="text" placeholder="Барсик" required>
+              </label>
+            </li>
+            <li class="program__passport-item">
+              <label>
+                <span class="program__passport-label">Вес (Кг):*</span>
+                <input type="text" placeholder="7" required>
+              </label>
+            </li>
+            <li class="program__passport-item">
+              <label>
+                <span class="program__passport-label">Возраст (лет):</span>
+                <input type="text" placeholder="7">
+              </label>
+            </li>
+          </ul>
+          <ul class="program__data-target">
+            <li class="program__target-item">
+              <label>
+                <input type="radio" name="choice">
+                <span class="program__target-label">Похудение</span>
+              </label>
+            </li>
+            <li class="program__target-item">
+              <label>
+                <input type="radio" name="choice">
+                <span class="program__target-label">Набор массы</span>
+              </label>
+            </li>
+            <li class="program__target-item">
+              <label>
+                <input type="radio" name="choice">
+                <span class="program__target-label">Не знаю (нужен ваш совет)</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="program__contact-field">
+          <h2 class="program__contact-title">Контактные данные (владельца кота)</h2>
+          <div class="program__contact-field">
+            <p class="program__contact-email">
+              <label>
+                <span class="program__contact-label">E-mail:*</span>
+                <input type="email" placeholder="kuklachev@gmail.com" required>
+              </label>
+            </p>
+            <p class="program__contact-telephone">
+              <label>
+                <span class="program__contact-label">Телефон:*</span>
+                <input type="tel" placeholder="8 (960) 900-60-90" required>
+              </label>
+            </p>
+          </div>
+        </fieldset>
+        <fieldset class="program__comment-field">
+          <h2 class="program__comment-title">Комментарий</h2>
+          <textarea class="program__comment-text" rows="8" placeholder="Расскажите о всех повадках кота"></textarea>
+        </fieldset>
+        <fieldset class="program__eddition">
+          <h2 class="program__eddition-title">Дополнительно</h2>
+          <ul class="program__edition-list">
+            <li class="program__edition-item">
+              <label>
+                <input type="checkbox" checked>
+                <span class="program__edition-label">Сахарозаменитель</span>
+              </label>
+            </li>
+            <li class="program__edition-item">
+              <label>
+                <input type="checkbox">
+                <span class="program__edition-label">Питьевая вода</span>
+              </label>
+            </li>
+            <li class="program__edition-item">
+              <label>
+                <input type="checkbox">
+                <span class="program__edition-label">Молоко</span>
+              </label>
+            </li>
+            <li class="program__edition-item">
+              <label>
+                <input type="checkbox">
+                <span class="program__edition-label">Витамины</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <div class="program__send">
+          <a class="program__send-button btn" href="#">Отправить заявку</a>
+          <p class="program__send-field">* — Обязательные поля</p>
+        </div>
+      </form>
+    </section>
+    <div class="contact">
+      <div class="contact__field">
+        <p class="contact__note">Приглашаем к сотрудничеству дилеров!</p>
+        <address class="contact__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      </div>
+      <img class="contact__map" src="#" width="320" height="360" alt="Карта">
+    </div>
     <footer class="page-footer">
       <a class="page-footer__name" href="#">
         <img class="page-footer__logo-text" src="img/logo-footer.svg" width="128" height="24" alt="cat-energy">
