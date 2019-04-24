@@ -28,8 +28,8 @@
     <section class="program">
       <h1 class="program__title">Подбор программы</h1>
       <p class="program__description">Заполните анкету и мы подберем программу для вашего кота</p>
-      <form class="program__form" action="https://echo.htmlacademy.ru" method="post">
-        <div class="program__field">
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form__fields">
           <label class="field-text">
             <span class="field-text__name">Имя:*</span>
             <input class="field-text__input" type="text" placeholder="Барсик" required>
@@ -43,7 +43,7 @@
             <input class="field-text__input" type="text" placeholder="7">
           </label>
         </div>
-        <div class="program-field">
+        <div class="form__fields">
           <label class="field-radio">
             <input class="field-radio__input" type="radio" name="choice">
             <span class="field-radio__name">Похудение</span>
@@ -57,8 +57,8 @@
             <span class="field-radio__name">Не знаю (нужен ваш совет)</span>
           </label>
         </div>
-        <div class="program__field">
-          <h2 class="program__field-title">Контактные данные (владельца кота)</h2>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Контактные данные (владельца кота)</h2>
           <label class="field-text">
             <span class="field-text__name">E-mail:*</span>
             <input class="field-text__input field-text__input--email" type="email" placeholder="kuklachev@gmail.com" required>
@@ -68,12 +68,14 @@
             <input class="field-text__input field-text__input--telephone" type="tel" placeholder="8 (960) 900-60-90" required>
           </label>
         </div>
-        <div class="program__field">
-          <h2 class="program__field-title">Комментарий</h2>
-          <textarea class="field-text__input" rows="8" placeholder="Расскажите о всех повадках кота"></textarea>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Комментарий</h2>
+          <div class="field-text">
+            <textarea class="field-text__input" rows="8" placeholder="Расскажите о всех повадках кота"></textarea>
+          </div>
         </div>
-        <div class="program__field">
-          <h2 class="program__field-title">Дополнительно</h2>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Дополнительно</h2>
           <label class="field-checkbox">
             <input class="field-checkbox__input" type="checkbox" checked>
             <span class="field-checkbox__name">Сахарозаменитель</span>
@@ -92,7 +94,7 @@
           </label>
         </div>
         <div class="field-action">
-          <button class="field-action__button btn">Отправить заявку</button>
+          <button class="field-action__button btn" type="submit">Отправить заявку</button>
           <span class="field-action__description">* — Обязательные поля</span>
         </div>
       </form>
