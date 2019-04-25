@@ -25,6 +25,87 @@
         </li>
       </ul>
     </nav>
+    <section class="program">
+      <h1 class="program__title">Подбор программы</h1>
+      <p class="program__description">Заполните анкету и мы подберем программу для вашего кота</p>
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form__fields">
+          <label class="field-text">
+            <span class="field-text__name">Имя:*</span>
+            <input class="field-text__input" type="text" placeholder="Барсик" required>
+          </label>
+          <label class="field-text">
+            <span class="field-text__name">Вес (Кг):*</span>
+            <input class="field-text__input" type="text" placeholder="7" required>
+          </label>
+          <label class="field-text">
+            <span class="field-text__name">Возраст (лет):</span>
+            <input class="field-text__input" type="text" placeholder="7">
+          </label>
+        </div>
+        <div class="form__fields">
+          <label class="field-radio">
+            <input class="field-radio__input" type="radio" name="choice">
+            <span class="field-radio__name">Похудение</span>
+          </label>
+          <label class="field-radio">
+            <input class="field-radio__input" type="radio" name="choice">
+            <span class="field-radio__name">Набор массы</span>
+          </label>
+          <label class="field-radio">
+            <input class="field-radio__input" type="radio" name="choice">
+            <span class="field-radio__name">Не знаю (нужен ваш совет)</span>
+          </label>
+        </div>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Контактные данные (владельца кота)</h2>
+          <label class="field-text">
+            <span class="field-text__name">E-mail:*</span>
+            <input class="field-text__input field-text__input--email" type="email" placeholder="kuklachev@gmail.com" required>
+          </label>
+          <label class="field-text">
+            <span class="field-text__name">Телефон:*</span>
+            <input class="field-text__input field-text__input--telephone" type="tel" placeholder="8 (960) 900-60-90" required>
+          </label>
+        </div>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Комментарий</h2>
+          <div class="field-text">
+            <textarea class="field-text__input" rows="8" placeholder="Расскажите о всех повадках кота"></textarea>
+          </div>
+        </div>
+        <div class="form__fields">
+          <h2 class="form__fields-title">Дополнительно</h2>
+          <label class="field-checkbox">
+            <input class="field-checkbox__input" type="checkbox" checked>
+            <span class="field-checkbox__name">Сахарозаменитель</span>
+          </label>
+          <label class="field-checkbox">
+            <input class="field-checkbox__input" type="checkbox">
+            <span class="field-checkbox__name">Питьевая вода</span>
+          </label>
+          <label class="field-checkbox">
+            <input class="field-checkbox__input" type="checkbox">
+            <span class="field-checkbox__name">Молоко</span>
+          </label>
+          <label class="field-checkbox">
+            <input class="field-checkbox__input" type="checkbox">
+            <span class="field-checkbox__name">Витамины</span>
+          </label>
+        </div>
+        <div class="field-action">
+          <button class="field-action__button btn" type="submit">Отправить заявку</button>
+          <span class="field-action__description">* — Обязательные поля</span>
+        </div>
+      </form>
+    </section>
+    <div class="contact">
+      <div class="contact__field">
+        <p class="contact__note">Приглашаем к сотрудничеству дилеров!</p>
+        <address class="contact__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      </div>
+      <img class="contact__map" src="#" width="320" height="360" alt="Карта">
+    </div>
     <footer class="page-footer">
       <a class="page-footer__name" href="#">
         <img class="page-footer__logo-text" src="img/logo-footer.svg" width="128" height="24" alt="cat-energy">
