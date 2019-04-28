@@ -11,8 +11,42 @@
   text-transform: uppercase;
 }
 
+.card {
+  position: relative;
+
+  display: flex;
+  min-height: 208px;
+}
+
+.card--more {
+  flex-direction: column;
+}
+
+.card__btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .card__options-title,
 .card__options-value {
   font-size: @font-size-xs;
   line-height: 1.33em;
+}
+
+@media (min-width: @tablet-width) {
+  .card {
+    outline: 1px solid black;
+
+    width: 324px;
+    min-height: 515px;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .card {
+    width: 245px;
+    min-height: 500px;
+  }
 }

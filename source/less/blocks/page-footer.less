@@ -1,7 +1,8 @@
 .page-footer {
-  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  width: 320px;
+  width: @mobile-width;
   min-height: 236px;
   margin: 0 auto;
   padding: 0 20px;
@@ -28,4 +29,24 @@
 .page-footer__copyright-title {
   font-size: @font-size;
   line-height: 1em;
+}
+
+@media (min-width: @tablet-width) {
+  .page-footer {
+    outline: 1px solid black;
+
+    flex-direction: row;
+    justify-content: space-between;
+    width: @tablet-width;
+    min-height: 150px;
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-footer {
+    width: @desktop-width;
+    min-height: 150px;
+    padding: 0 110px;
+  }
 }

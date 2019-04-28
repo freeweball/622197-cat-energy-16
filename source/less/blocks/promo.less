@@ -1,5 +1,10 @@
 .promo {
-  background-color: @color-main;
+  outline: 1px solid black;
+
+  min-height: 480px;
+  box-sizing: border-box;
+
+  background-image: linear-gradient(to bottom, @color-main 305px, #ffffff 305px);
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 306px;
@@ -30,4 +35,28 @@
   text-decoration: none;
 
   background-color: @color-main;
+}
+
+@media (min-width: @tablet-width) {
+  .promo {
+    width: @tablet-width;
+    min-height: 860px;
+    padding: 0 30px;
+
+    background: none;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo {
+    width: @desktop-width;
+    min-height: 697px;
+    margin: 0 auto;
+    margin-top: -140px;
+
+    background-image: linear-gradient(to left, #ffffff 720px, @color-main 720px);
+    background-image: url("../../img/index-background-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 720px 0;
+  }
 }
