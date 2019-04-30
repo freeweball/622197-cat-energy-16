@@ -1,6 +1,5 @@
 .categories {
   width: @mobile-width;
-  min-height: 575px;
   padding: 0 20px;
 }
 
@@ -9,13 +8,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 550px;
   padding-top: 23px;
 }
 
 .categories__item {
-  min-height: 265px;
-
   background-color: @gray-lighten;
 }
 
@@ -50,34 +46,28 @@
 @media (min-width: @tablet-width) {
   .categories {
     width: @tablet-width;
-    min-height: 775px;
     padding: 0 30px;
   }
 
   .categories__list {
-    min-height: 775px;
   }
 
   .categories__item {
-    min-height: 370px;
   }
 }
 
 @media (min-width: @desktop-width) {
   .categories {
     width: @desktop-width;
-    min-height: 450px;
     padding: 0 110px;
   }
 
   .categories__list {
     flex-direction: row;
-    min-height: 370px;
     margin-top: 57px;
   }
 
   .categories__item {
     width: 570px;
-    min-height: 370px;
   }
 }
