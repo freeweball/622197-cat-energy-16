@@ -1,14 +1,15 @@
 .comparison {
-  width: @mobile-width;
-
-  background-color: @gray-lighten;
+  padding-top: 100px;
+  padding-bottom: 79px;
 
   @media (min-width: @tablet-width) {
-    width: @tablet-width;
+    padding-top: 300px;
+    padding-bottom: 370px;
   }
 
   @media (min-width: @desktop-width) {
-    width: @desktop-width;
+    padding-top: 173px;
+    padding-bottom: 57px;
   }
 }
 
@@ -23,6 +24,16 @@
 
 .comparison__text {
   line-height: 1.28em;
+}
+
+.comparison__wrapper {
+  @media (min-width: @tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: @desktop-width) {
+    flex-direction: column;
+  }
 }
 
 .comparison__data {

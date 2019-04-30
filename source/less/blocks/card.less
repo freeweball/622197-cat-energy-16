@@ -1,7 +1,6 @@
 .card {
-  position: relative;
-
   display: flex;
+  flex-direction: column;
 
   @media (min-width: @tablet-width) {
     width: 324px;
@@ -11,6 +10,10 @@
   @media (min-width: @desktop-width) {
     width: 245px;
   }
+}
+
+.card__wrapper {
+  display: flex;
 }
 
 .card__title-link {
@@ -28,12 +31,6 @@
 
 .card--more {
   flex-direction: column;
-}
-
-.card__btn {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .card__options-title,
