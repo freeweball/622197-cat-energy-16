@@ -1,3 +1,18 @@
+.card {
+  position: relative;
+
+  display: flex;
+
+  @media (min-width: @tablet-width) {
+    width: 324px;
+    margin-bottom: 56px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 245px;
+  }
+}
+
 .card__title-link {
   text-decoration: none;
 }
@@ -9,12 +24,6 @@
   font-size: @font-size;
   line-height: 1.25em;
   text-transform: uppercase;
-}
-
-.card {
-  position: relative;
-
-  display: flex;
 }
 
 .card--more {
@@ -31,17 +40,4 @@
 .card__options-value {
   font-size: @font-size-xs;
   line-height: 1.33em;
-}
-
-@media (min-width: @tablet-width) {
-  .card {
-    width: 324px;
-    margin-bottom: 56px;
-  }
-}
-
-@media (min-width: @desktop-width) {
-  .card {
-    width: 245px;
-  }
 }

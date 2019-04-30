@@ -1,6 +1,16 @@
 .contact {
   width: @mobile-width;
   margin: 0 auto;
+
+  @media (min-width: @tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: @desktop-width) {
+    position: relative;
+
+    width: @desktop-width;
+  }
 }
 
 .contact__field {
@@ -8,6 +18,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+
+  @media (min-width: @desktop-width) {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+
+    width: 570px;
+    padding: 0;
+  }
 }
 
 .contact__note {
@@ -19,11 +38,24 @@
   font-size: @font-size;
   line-height: 1.25em;
   text-transform: uppercase;
+
+  @media (min-width: @tablet-width) {
+    width: 354px;
+    margin: 0;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 245px;
+  }
 }
 
 .contact__map {
   display: block;
   width: 100%;
+
+  @media (min-width: @tablet-width) {
+    width: @tablet-width;
+  }
 }
 
 .contact__address {
@@ -31,45 +63,12 @@
 
   line-height: 1.43em;
   font-style: normal;
-}
 
-@media (min-width: @tablet-width) {
-  .contact {
-    width: 768px;
-  }
-
-  .contact__note {
-    width: 354px;
-    margin: 0;
-  }
-
-  .contact__address {
+  @media (min-width: @tablet-width) {
     width: 324px;
   }
 
-  .contact__map {
-    width: @tablet-width;
-  }
-}
-
-@media (min-width: @desktop-width) {
-  .contact {
-    position: relative;
-
-    width: @desktop-width;
-  }
-
-  .contact__field {
-    position: absolute;
-    top: 95px;
-    left: 110px;
-
-    width: 570px;
-    padding: 0;
-  }
-
-  .contact__note,
-  .contact__address {
+  @media (min-width: @desktop-width) {
     width: 245px;
   }
 }

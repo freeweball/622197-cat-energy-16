@@ -2,6 +2,14 @@
   width: @mobile-width;
 
   background-color: @gray-lighten;
+
+  @media (min-width: @tablet-width) {
+    width: @tablet-width;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: @desktop-width;
+  }
 }
 
 .comparison__title {
@@ -115,16 +123,4 @@
 
   background-color: inherit;
   border: none;
-}
-
-@media (min-width: @tablet-width) {
-  .comparison {
-    width: @tablet-width;
-  }
-}
-
-@media (min-width: @desktop-width) {
-  .comparison {
-    width: @desktop-width;
-  }
 }
