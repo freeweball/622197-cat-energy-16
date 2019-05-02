@@ -1,12 +1,78 @@
+.contact {
+  width: @mobile-width;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  @media (min-width: @tablet-width) {
+    width: @tablet-width;
+    padding-top: 300px;
+    padding-bottom: 237px;
+  }
+
+  @media (min-width: @desktop-width) {
+    position: relative;
+    padding-bottom: 87px;
+    width: @desktop-width;
+  }
+}
+
+.contact__field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  @media (min-width: @desktop-width) {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+
+    width: 570px;
+    padding: 0;
+  }
+}
+
 .contact__note {
+  width: 125px;
+  margin: 0;
+
   font-family: @alternate-font;
   color: @gray-darkest;
   font-size: @font-size;
   line-height: 1.25em;
   text-transform: uppercase;
+
+  @media (min-width: @tablet-width) {
+    width: 354px;
+    margin: 0;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 245px;
+  }
+}
+
+.contact__map {
+  display: block;
+  width: 100%;
+
+  @media (min-width: @tablet-width) {
+    width: @tablet-width;
+  }
 }
 
 .contact__address {
+  width: 140px;
+
   line-height: 1.43em;
   font-style: normal;
+
+  @media (min-width: @tablet-width) {
+    width: 324px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 245px;
+  }
 }

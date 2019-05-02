@@ -1,8 +1,21 @@
 .comparison {
-  background-color: @gray-lighten;
+  padding-top: 100px;
+  padding-bottom: 79px;
+
+  @media (min-width: @tablet-width) {
+    padding-top: 300px;
+    padding-bottom: 370px;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding-top: 173px;
+    padding-bottom: 57px;
+  }
 }
 
 .comparison__title {
+  margin: 0;
+
   font-family: @alternate-font;
   color: @gray-darkest;
   font-size: @font-size-xxl;
@@ -11,6 +24,28 @@
 
 .comparison__text {
   line-height: 1.28em;
+}
+
+.comparison__wrapper {
+  @media (min-width: @tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: @desktop-width) {
+    flex-direction: column;
+  }
+}
+
+.comparison__data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comparison__data-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 125px;
 }
 
 .comparison__weight {
@@ -22,8 +57,11 @@
 }
 
 .comparison__description {
+  width: 80px;
+
   font-size: @font-size-xs;
   line-height: 1em;
+  text-align: center;
 }
 
 .comparison__total-description {
@@ -45,6 +83,19 @@
   .no-list;
 }
 
+.comparison__result-after {
+  display: none;
+}
+
+.comparison__condition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 197px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .comparison__condition-before {
   font-family: @alternate-font;
   color: @gray-darkest;
@@ -54,6 +105,24 @@
 
   background-color: inherit;
   border: none;
+}
+
+.comparison__condition-field {
+  width: 84px;
+  height: 14px;
+  padding: 3px 5px;
+
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+}
+
+.comparison__field-back {
+  width: 35px;
+  height: 6px;
+
+  background-color: @color-main;
+  border-radius: 3px;
 }
 
 .comparison__condition-after {
