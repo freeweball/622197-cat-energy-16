@@ -31,35 +31,37 @@
       <h1 class="program__title">Подбор программы</h1>
       <p class="program__description">Заполните анкету и мы подберем программу для вашего кота</p>
       <form class="form" action="https://echo.htmlacademy.ru" method="post">
-        <div class="form__fields">
-          <label class="field-text">
-            <span class="field-text__name">Имя:*</span>
-            <input class="field-text__input" type="text" placeholder="Барсик" required>
-          </label>
-          <label class="field-text">
-            <span class="field-text__name">Вес (Кг):*</span>
-            <input class="field-text__input" type="text" placeholder="7" required>
-          </label>
-          <label class="field-text">
-            <span class="field-text__name">Возраст (лет):</span>
-            <input class="field-text__input" type="text" placeholder="7">
-          </label>
+        <div class="form__wrapper">
+          <div class="form__fields">
+            <label class="field-text">
+              <span class="field-text__name">Имя:*</span>
+              <input class="field-text__input" type="text" placeholder="Барсик" required>
+            </label>
+            <label class="field-text">
+              <span class="field-text__name">Вес (Кг):*</span>
+              <input class="field-text__input" type="text" placeholder="7" required>
+            </label>
+            <label class="field-text">
+              <span class="field-text__name">Возраст (лет):</span>
+              <input class="field-text__input" type="text" placeholder="7">
+            </label>
+          </div>
+          <div class="form__fields form__fields--border">
+            <label class="field-radio">
+              <input class="field-radio__input" type="radio" name="choice">
+              <span class="field-radio__name">Похудение</span>
+            </label>
+            <label class="field-radio">
+              <input class="field-radio__input" type="radio" name="choice">
+              <span class="field-radio__name">Набор массы</span>
+            </label>
+            <label class="field-radio">
+              <input class="field-radio__input" type="radio" name="choice">
+              <span class="field-radio__name">Не знаю (нужен ваш совет)</span>
+            </label>
+          </div>
         </div>
-        <div class="form__fields">
-          <label class="field-radio">
-            <input class="field-radio__input" type="radio" name="choice">
-            <span class="field-radio__name">Похудение</span>
-          </label>
-          <label class="field-radio">
-            <input class="field-radio__input" type="radio" name="choice">
-            <span class="field-radio__name">Набор массы</span>
-          </label>
-          <label class="field-radio">
-            <input class="field-radio__input" type="radio" name="choice">
-            <span class="field-radio__name">Не знаю (нужен ваш совет)</span>
-          </label>
-        </div>
-        <div class="form__fields">
+        <div class="form__fields form__fields-contact">
           <h2 class="form__fields-title">Контактные данные (владельца кота)</h2>
           <label class="field-text">
             <span class="field-text__name">E-mail:*</span>
@@ -76,7 +78,7 @@
             <textarea class="field-text__input" rows="8" placeholder="Расскажите о всех повадках кота"></textarea>
           </div>
         </div>
-        <div class="form__fields">
+        <div class="form__fields form__fields-checkbox">
           <h2 class="form__fields-title">Дополнительно</h2>
           <label class="field-checkbox">
             <input class="field-checkbox__input" type="checkbox" checked>

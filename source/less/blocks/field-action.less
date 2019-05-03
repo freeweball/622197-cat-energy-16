@@ -1,3 +1,12 @@
+.field-action {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: @tablet-width) {
+    flex-direction: row;
+  }
+}
+
 .field-action__description {
   line-height: 1.14em;
 }
