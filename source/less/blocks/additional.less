@@ -14,8 +14,11 @@
   }
 
   @media (min-width: @desktop-width) {
-    width: @desktop-width;
-    padding: 0 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1300px;
+    padding: 0 40px;
     padding-bottom: 195px;
   }
 }
@@ -27,12 +30,9 @@
   color: @gray-darkest;
   font-size: @font-size-xl;
   line-height: 1em;
-}
 
-.additional__wrapper {
   @media (min-width: @desktop-width) {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
   }
 }
 
