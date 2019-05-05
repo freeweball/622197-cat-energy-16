@@ -1,11 +1,31 @@
 .page-header {
-  outline: 1px dashed blue;
-  box-sizing: border-box;
   display: flex;
-  width: 320px;
-  min-height: 66px;
+  flex-wrap: wrap;
+  width: @mobile-width;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 11px;
+  padding-bottom: 16px;
 
   background-color: #ffffff;
+
+  @media (min-width: @tablet-width) {
+    flex-wrap: nowrap;
+    width: @tablet-width;
+    padding: 0 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 1300px;
+    padding: 0 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+.page-header__toggle {
+  @media (min-width: @tablet-width) {
+    display: none;
+  }
 }

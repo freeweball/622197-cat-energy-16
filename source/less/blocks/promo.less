@@ -1,8 +1,29 @@
 .promo {
-  background-color: @color-main;
+  padding-top: 50px;
+  padding-bottom: 47px;
+
+  background: linear-gradient(to bottom, @color-main 305px, #ffffff 305px);
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 306px;
+
+  @media (min-width: @tablet-width) {
+    padding: 0 30px;
+    padding-top: 200px;
+    padding-bottom: 257px;
+
+    background: none;
+  }
+
+  @media (min-width: @desktop-width) {
+    margin-top: -233px;
+    padding-top: 195px;
+
+    background: linear-gradient(to left, #ffffff 650px, @color-main 650px);
+    background-image: url("../../img/index-background-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 650px 0;
+  }
 }
 
 .promo__title {

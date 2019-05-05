@@ -1,9 +1,38 @@
+.categories {
+  padding: 0 20px;
+  padding-top: 95px;
+  padding-bottom: 100px;
+
+  @media (min-width: @tablet-width) {
+    padding: 0 30px;
+    padding-top: 200px;
+    padding-bottom: 287px;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding: 0 40px;
+    padding-top: 67px;
+    padding-bottom: 100px;
+  }
+}
+
 .categories__list {
   .no-list();
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: @desktop-width) {
+    flex-direction: row;
+    margin-top: 57px;
+  }
 }
 
 .categories__item {
   background-color: @gray-lighten;
+
+  @media (min-width: @desktop-width) {
+    width: 570px;
+  }
 }
 
 .categories__item-title {

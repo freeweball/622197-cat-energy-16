@@ -1,20 +1,30 @@
 .main-nav {
-  outline: 1px dashed darkblue;
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 78px;
 
-  background-color: #ffffff;
+  @media (min-width: @tablet-width) {
+    padding-bottom: 70px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 1300px;
+  }
 }
 
 .main-nav__list {
   .no-list();
   display: flex;
   flex-direction: column;
-}
 
-.main-nav__item {
-  outline: 1px dashed yellow;
-  min-height: 66px;
+  @media (min-width: @tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 478px;
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
 .main-nav__link {
