@@ -14,7 +14,7 @@
   @media (min-width: @desktop-width) {
     width: 1300px;
     padding: 0 40px;
-    padding-bottom: 110px;
+    padding-bottom: 74px;
   }
 }
 
@@ -29,6 +29,7 @@
   line-height: 1.667em;
 
   @media (min-width: @tablet-width) {
+    margin-bottom: 23px;
     padding: 0;
 
     font-size: 60px;
@@ -41,12 +42,15 @@
   display: flex;
   flex-direction: column;
 
-
   @media (min-width: @tablet-width) {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 140px;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding-top: 0;
   }
 }
 
@@ -58,15 +62,24 @@
       margin-bottom: 0;
     }
   }
+
+  @media (min-width: @desktop-width) {
+    margin-top: 143px;
+    margin-bottom: 0;
+
+    &:nth-last-child(2) {
+      margin-top: 143px;
+    }
+  }
 }
 
 .catalog__more {
   position: relative;
 
-
   padding-top: 80px;
 
   @media (min-width: @desktop-width) {
+    margin-top: 143px;
     width: 245px;
   }
 }
@@ -79,29 +92,29 @@
   font-weight: 400;
 
   &::before {
+    content: "";
+
     position: absolute;
     top: 40px;
     left: 144px;
 
-    content: "";
-
     width: 30px;
     height: 2px;
 
-    background-color: #d3d3d3;
+    background-color: @gray;
   }
 
   &::after {
+    content: "";
+
     position: absolute;
     top: 40px;
     left: 144px;
 
-    content: "";
-
     width: 30px;
     height: 2px;
 
-    background-color: #d3d3d3;
+    background-color: @gray;
 
     transform: rotate(90deg);
   }
@@ -115,25 +128,34 @@
 
     text-align: center;
     vertical-align: middle;
+
+    &::before {
+      top: 80px;
+      left: 132px;
+
+      width: 60px;
+      height: 2px;
+    }
+
+    &::after {
+      top: 80px;
+      left: 132px;
+
+      width: 60px;
+      height: 2px;
+    }
   }
 
-  &::before {
-    top: 80px;
-    left: 132px;
+  @media (min-width: @desktop-width) {
+    &::before {
+      left: 92px;
+    }
 
-    width: 60px;
-    height: 2px;
-  }
-
-  &::after {
-    top: 80px;
-    left: 132px;
-
-    width: 60px;
-    height: 2px;
+    &::after {
+      left: 92px;
+    }
   }
 }
-
 
 .catalog__more-link {
   font-family: @alternate-font;
@@ -181,5 +203,9 @@
     width: 250px;
     margin: 0 auto;
     margin-top: 82px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 169px;
   }
 }

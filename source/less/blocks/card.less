@@ -6,9 +6,9 @@
   padding-left: 19px;
   padding-bottom: 24px;
 
-  border-left: 1px solid #ededed;
-  border-top: 1px solid #ededed;
-  border-right: 1px solid #ededed;
+  border-left: 1px solid @gray-ultra-lights;
+  border-top: 1px solid @gray-ultra-lights;
+  border-right: 1px solid @gray-ultra-lights;
 
   @media (min-width: @tablet-width) {
     width: 324px;
@@ -45,6 +45,10 @@
     width: 161px;
     height: 172px;
   }
+
+  @media (min-width: @desktop-width) {
+    left: 50px;
+  }
 }
 
 .card__title-link {
@@ -60,11 +64,16 @@
     padding: 0 35px;
     padding-top: 160px;
   }
+
+  @media (min-width: @desktop-width) {
+    padding-top: 163px;
+  }
 }
 
 .card__title {
   width: 80px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
 
   font-family: @alternate-font;
   font-size: @font-size;
@@ -85,24 +94,29 @@
 .card--more {
   flex-direction: column;
 
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid @gray-ultra-lights;
 
   @media (min-width: @tablet-width) {
     background: none;
-    border: 1px solid #ededed;
+    border: 1px solid @gray-ultra-lights;
   }
 }
 
-.card__options tbody {
+.card__options {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  padding-top: 11px;
 
   border-collapse: collapse;
+  padding-right: 17px;
 
   @media (min-width: @tablet-width) {
-    padding-top: 25px;
+    padding-top: 26px;
+    padding-left: 3px;
+    padding-right: 0;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding-right: 3px;
   }
 }
 
@@ -111,11 +125,11 @@
   justify-content: space-between;
 
   @media (min-width: @tablet-width) {
-    width: 250px;
+    width: 100%;
     margin-bottom: 8px;
     padding-bottom: 5px;
 
-    border-bottom: 1px solid #cdcdcd;
+    border-bottom: 1px solid @gray-very-lights;
   }
 }
 
@@ -136,6 +150,10 @@
   @media (min-width: @tablet-width) {
     width: 250px;
     margin: 0 auto;
-    margin-top: 23px;
+    margin-top: 26px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 169px;
   }
 }

@@ -18,15 +18,15 @@
   }
 
   @media (min-width: @desktop-width) {
-    margin-top: -233px;
+    margin-top: -253px;
     padding-top: 195px;
     padding-bottom: 190px;
-    padding-left: 190px;
+    padding-left: 121px;
 
     background: linear-gradient(to left, #ffffff 720px, @color-main 720px);
     background-image: url("../img/index-background-desktop@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 720px 73px;
+    background-position: 649px 73px;
   }
 }
 
@@ -46,7 +46,7 @@
     margin-bottom: 41px;
 
     color: @gray-darkest;
-    font-size: 60px;
+    font-size: @font-size-xxxl;
     font-weight: 400;
     line-height: 1em;
     text-align: left;
@@ -91,14 +91,14 @@
 
   @media (min-width: @tablet-width) {
     position: absolute;
-    left: 30px;
-    top: 200px;
+    left: 29px;
+    top: 203px;
 
     margin: 0;
   }
 
   @media (min-width: @desktop-width) {
-    left: 560px;
+    left: 490px;
     top: 215px;
   }
 }
@@ -127,16 +127,29 @@
   font-family: @alternate-font;
   color: #ffffff;
   font-size: @font-size-sm;
-  line-height: 40px;
+  line-height: 2.857em;
   text-transform: uppercase;
   text-decoration: none;
 
   background-color: @color-main;
 
+  &:hover {
+    background-color: #5eaa2f;
+  }
+
+  &:active,
+  &:focus {
+    color: #99c684;
+  }
+
   @media (min-width: @tablet-width) {
     width: 245px;
 
     font-size: @font-size-md;
-    line-height: 52px;
+    line-height: 2.6em;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 242px;
   }
 }
