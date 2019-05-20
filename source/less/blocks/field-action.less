@@ -23,6 +23,17 @@
 }
 
 .field-action__button {
+  &:hover {
+    background-color: @color-background-hover;
+  }
+
+  &:active,
+  &focus {
+    color: @color-background-focus;
+  }
+
+  cursor: pointer;
+
   @media (min-width: @tablet-width) {
     width: 283px;
     padding-top: 15px;

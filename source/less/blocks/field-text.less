@@ -57,6 +57,20 @@
 
   border: 1px solid @gray-ights;
 
+  &:hover {
+    border-color: @gray-very-lights;
+  }
+
+  &:active,
+  &:focus {
+    border: none;
+    outline: 2px solid @gray-darker;
+  }
+
+  &:focus:invalid {
+    outline: 2px solid #ff8282;
+  }
+
   @media (min-width: @tablet-width) {
     height: 52px;
     margin-left: 20px;
@@ -90,7 +104,7 @@
     margin-right: 17px;
     padding-left: 19px;
 
-    font-size: @font-size-xll;
+    font-size: @font-size-md;
     line-height: 1.5em;
   }
 
