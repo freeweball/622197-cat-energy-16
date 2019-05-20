@@ -1,14 +1,12 @@
 .advantages {
   padding: 0 20px;
-  padding-top: 18px;
+  padding-top: 19px;
   padding-bottom: 20px;
-
-  background-color: #ffffff;
 
   @media (min-width: @tablet-width) {
     padding: 0 30px;
     padding-top: 14px;
-    padding-bottom: 0;
+    padding-bottom: 2px;
 
     border-bottom: 1px solid @gray-ights;
   }
@@ -31,7 +29,7 @@
   line-height: 1.667em;
 
   @media (min-width: @tablet-width) {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     font-size: @font-size-xxxl;
     line-height: 1em;
@@ -46,10 +44,12 @@
   padding-left: 80px;
   padding-top: 30px;
 
+  counter-reset: number;
+
   @media (min-width: @tablet-width) {
     padding-left: 0;
     padding-right: 80px;
-    padding-top: 30px;
+    padding-top: 31px;
 
     flex-wrap: wrap;
     flex-direction: row;
@@ -75,7 +75,7 @@
 
     position: absolute;
     left: -80px;
-    top: -2px;
+    top: -1px;
 
     width: 60px;
     height: 60px;
@@ -98,9 +98,66 @@
       width: 80px;
       height: 80px;
     }
+
+    &::after {
+      counter-increment: number;
+      content: counter(number) "";
+
+      position: absolute;
+      top: -5px;
+      left: 116px;
+      z-index: -1;
+
+      font-family: @alternate-font;
+      color: @gray-lighten;
+      font-size: 281px;
+      line-height: 1em;
+    }
   }
 
   @media (min-width: @desktop-width) {
     width: 245px;
+    margin-bottom: 0;
+    padding-bottom: 47px;
+  }
+}
+
+.advantages__item--benefit::before {
+  background-image: url("../../img/advantage-leaf@1x.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+
+  @media (min-width: @tablet-width) {
+    background-position: 15px 13px;
+  }
+}
+
+.advantages__item--fast::before {
+  background-image: url("../../img/advantage-powder@1x.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+
+  @media (min-width: @tablet-width) {
+    background-position: 15px 13px;
+  }
+}
+
+.advantages__item--nutrition::before {
+  background-image: url("../../img/advantage-dining@1x.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+
+  @media (min-width: @tablet-width) {
+    background-position: 15px 13px;
+  }
+}
+
+.advantages__item--time::before {
+  background-image: url("../../img/advantage-clock@1x.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+
+  @media (min-width: @tablet-width) {
+    background-position: 15px 13px;
   }
 }

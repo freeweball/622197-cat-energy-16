@@ -1,11 +1,18 @@
 .additional {
+  position: relative;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.additional__wrapper {
   width: @mobile-width;
   margin: 0 auto;
   padding: 0 20px;
   padding-top: 27px;
   padding-bottom: 35px;
-
-  background-color: #ffffff;
 
   @media (min-width: @tablet-width) {
     width: @tablet-width;
@@ -27,8 +34,10 @@
 .additional__title {
   position: relative;
 
+  display: inline-block;
   margin: 0;
   margin-bottom: 25px;
+  padding-right: 22px;
 
   font-family: @alternate-font;
   color: @gray-darkest;
@@ -36,61 +45,43 @@
   font-weight: 400;
   line-height: 1em;
 
+  background-color: #ffffff;
+
   &::after {
     content: "";
 
     position: absolute;
     top: 14px;
-    right: -20px;
+    left: 0;
+    z-index: -1;
 
-    width: 53px;
+    width: 100vw;
     height: 3px;
 
     background-color: @color-main;
   }
 
   @media (min-width: @tablet-width) {
+    position: static;
     padding-left: 37px;
+    padding-right: 35px;
 
     font-size: @font-size-xxl;
     line-height: 1em;
 
     &::after {
-      right: -30px;
-      top: 22px;
-
-      width: 327px;
-    }
-
-    &::before {
-      content: "";
-
-      position: absolute;
-      top: 22px;
-      left: -30px;
-
-      width: 28px;
-      height: 3px;
-
-      background-color: @color-main;
+      right: 0;
+      top: 87px;
     }
   }
 
   @media (min-width: @desktop-width) {
-    width: 100%;
     margin-bottom: 81px;
-    padding-left: 0;
+    margin-left: -40px;
+    padding-left: 40px;
 
     &::after {
-      right: -110px;
-
-      width: 957px;
-    }
-
-    &::before {
-      left: -110px;
-
-      width: 69px;
+      top: 23px;
     }
   }
 }
@@ -104,7 +95,7 @@
   padding-bottom: 39px;
 
   @media (min-width: @tablet-width) {
-    margin-top: 72px;
+    margin-top: 47px;
   }
 
   @media (min-width: @desktop-width) {
@@ -223,6 +214,15 @@
   font-size: @font-size;
   line-height: 1.25em;
 
+  &:hover {
+    background-color: @color-background-hover;
+  }
+
+  &:active,
+  &focus {
+    color: @color-background-focus;
+  }
+
   @media (min-width: @tablet-width) {
     width: 100%;
   }
@@ -233,6 +233,8 @@
 }
 
 .additional__bonus {
+  position: relative;
+
   width: 280px;
   height: 289px;
   padding-top: 188px;
@@ -269,11 +271,36 @@
   line-height: 1.25em;
   text-align: center;
 
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 66px;
+    left: 113px;
+
+    width: 55px;
+    height: 60px;
+
+    background-image: url("../../img/icon-gift.svg");
+    background-repeat: no-repeat;
+  }
+
   @media (min-width: @tablet-width) {
     margin-left: 424px;
     padding-top: 71px;
 
     text-align: left;
+
+    &::before {
+      top: 64px;
+      left: 91px;
+    }
+  }
+
+  @media (min-width: @desktop-width) {
+    &::before {
+      left: 96px;
+    }
   }
 
   @media (min-width: @desktop-width) {

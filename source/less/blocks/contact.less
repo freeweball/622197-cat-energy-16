@@ -1,9 +1,17 @@
 .contact {
-  width: @mobile-width;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contact--grey {
+  background-color: @gray-lighten;
+}
+
+.contact__wrapper {
   margin: 0 auto;
 
   @media (min-width: @tablet-width) {
-    width: @tablet-width;
     padding-bottom: 0;
   }
 
@@ -14,18 +22,18 @@
   }
 }
 
-.contact--grey {
-  background-color: @gray-lighten;
-}
-
 .contact__field {
   display: flex;
   justify-content: space-between;
+  width: @mobile-width;
+  margin: 0 auto;
+
   padding: 0 19px;
   padding-top: 29px;
   padding-bottom: 25px;
 
   @media (min-width: @tablet-width) {
+    width: @tablet-width;
     padding-left: 71px;
     padding-right: 72px;
     padding-top: 0;
@@ -70,17 +78,28 @@
   }
 }
 
-.contact__map iframe {
-  width: 320px;
+.contact__map {
+  width: 100%;
   height: 362px;
 
   @media (min-width: @tablet-width) {
-    width: 767px;
     height: 396px;
   }
 
   @media (min-width: @desktop-width) {
-    width: 1300px;
+    height: 399px;
+  }
+}
+
+.contact__map iframe {
+  width: 100%;
+  height: 362px;
+
+  @media (min-width: @tablet-width) {
+    height: 396px;
+  }
+
+  @media (min-width: @desktop-width) {
     height: 399px;
   }
 }
