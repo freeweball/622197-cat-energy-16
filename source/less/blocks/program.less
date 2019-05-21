@@ -1,7 +1,11 @@
 .program {
+  overflow-x: hidden;
+}
+
+.program__wrapper {
   width: 320px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 15px;
 
   background-color: #ffffff;
 
@@ -17,16 +21,49 @@
 }
 
 .program__title {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 26px;
+  padding-left: 20px;
 
   font-family: @alternate-font;
   color: @gray-darkest;
   font-size: @font-size-xxl;
+  font-weight: 400;
   line-height: 1.67em;
+
+  @media (min-width: @tablet-width) {
+    margin-bottom: 55px;
+    padding-left: 0;
+
+    font-size: @font-size-xxxl;
+    line-height: 1em;
+  }
 }
 
 .program__description {
+  width: 280px;
+  margin-top: 0;
+  margin-bottom: 41px;
+  padding-left: 20px;
+
   font-family: @alternate-font;
   color: @gray-darkest;
   font-weight: 1.28em;
+  text-transform: uppercase;
+
+  @media (min-width: @tablet-width) {
+    width: 390px;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-bottom: 66px;
+
+    font-size: @font-size-md;
+    line-height: 1.5em;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 325px;
+    padding-left: 0;
+    padding-bottom: 64px;
+  }
 }
