@@ -9,7 +9,7 @@ if (navToggle.classList.contains('page-header__toggle--close')) {
 }
 
 navToggle.addEventListener('click', function() {
-  if (navMain.classList.contains('main-nav--closed')) {
+  if (navMain.classList.contains('main-nav--open')) {
     navMain.classList.toggle('main-nav--closed');
     navToggle.classList.toggle('page-header__toggle--close');
 
