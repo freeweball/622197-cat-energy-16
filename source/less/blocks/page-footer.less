@@ -60,7 +60,7 @@
   .no-list();
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
   border-bottom: 1px solid @color-border-grey;
 
   @media (min-width: @tablet-width) {
@@ -78,8 +78,16 @@
 .page-footer__copyright-title {
   margin-top: 30px;
 
+  color: @gray-darker;
   font-size: @font-size;
   line-height: 1em;
+  text-decoration: none;
+
+  &:focus,
+  &:active {
+    fill: @color-main;
+    opacity: 0.3;
+  }
 
   @media (min-width: @tablet-width) {
     margin-top: 16px;
@@ -92,9 +100,23 @@
   height: 34px;
   margin-top: 23px;
 
-  background-color: #000000;
-
   @media (min-width: @tablet-width) {
-    margin-top: 4px;
+    margin-top: 9px;
+  }
+}
+
+.page-footer__copyright-logo svg {
+  width: 27px;
+  height: 34px;
+  fill: @gray-ultra-dark;
+
+  &:hover {
+    fill: @color-main;
+  }
+
+  &:focus,
+  &:active {
+    fill: @color-main;
+    opacity: 0.3;
   }
 }

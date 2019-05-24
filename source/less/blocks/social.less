@@ -1,20 +1,70 @@
 .social {
   .no-list();
-  padding-top: 21px;
-  padding-bottom: 22px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-top: 24px;
+  padding-bottom: 15px;
+  padding-left: 73px;
+  padding-right: 81px;
 
   @media (min-width: @tablet-width) {
-    padding-top: 5px;
+    padding-top: 0;
     padding-left: 110px;
     padding-right: 90px;
   }
 }
 
-.social__item {
-  width: 19px;
-  height: 19px;
+.social__link--vk svg {
+  fill: @gray-ultra-dark;
 
-  background-color: #000000;
+  &:hover {
+    fill: @color-main;
+  }
+
+  &:focus,
+  &:active {
+    fill: @color-main;
+    opacity: 0.3;
+  }
+
+  @media (min-width: @tablet-width) {
+    width: 30px;
+    height: 16px;
+  }
+}
+
+.social__link--insta svg {
+  fill: @gray-ultra-dark;
+
+  &:hover {
+    fill: @color-main;
+  }
+
+  &:focus,
+  &:active {
+    fill: @color-main;
+    opacity: 0.3;
+  }
+
+  @media (min-width: @tablet-width) {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+.social__link--fb svg {
+  fill: @gray-ultra-dark;
+
+  &:hover {
+    fill: @color-main;
+  }
+
+  &:focus,
+  &:active {
+    fill: @color-main;
+    opacity: 0.3;
+  }
+
+  @media (min-width: @tablet-width) {
+    width: 14px;
+    height: 28px;
+  }
 }
