@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="no-js" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/picturefill.js" async=""></script>
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js')</script>
   </head>
   <body>
+    <div style="display: none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
     <header class="page-header">
       <a href="index.html" class="page-header__logo">
         <picture>
@@ -16,8 +21,8 @@
           <img class="page-header__logo-image" src="img/logo-mobile.svg" width="192" height="38" alt="logo cat-energy">
         </picture>
       </a>
-      <button class="page-header__toggle page-header__toggle--close" type="button">Открыть меню</button>
-    <nav class="main-nav">
+      <button class="page-header__toggle" type="button">Открыть меню</button>
+    <nav class="main-nav main-nav--closed">
       <ul class="main-nav__list">
         <li class="main-nav__item">
           <a class="main-nav__link" href="index.html">Главная</a>
@@ -40,11 +45,11 @@
             <div class="form__fields">
               <label class="field-text">
                 <span class="field-text__name">Имя:*</span>
-                <input class="field-text__input" type="text" placeholder="Барсик" required>
+                <input class="field-text__input" type="text" placeholder="Барсик" required="">
               </label>
               <label class="field-text">
                 <span class="field-text__name">Вес (Кг):*</span>
-                <input class="field-text__input" type="text" placeholder="7" required>
+                <input class="field-text__input" type="text" placeholder="7" required="">
               </label>
               <label class="field-text">
                 <span class="field-text__name">Возраст (лет):</span>
@@ -70,11 +75,11 @@
             <h2 class="form__fields-title form__fields-title--contact">Контактные данные (владельца кота)</h2>
             <label class="field-text">
               <span class="field-text__name">E-mail:*</span>
-              <input class="field-text__input field-text__input--email" type="email" placeholder="kuklachev@gmail.com" required>
+              <input class="field-text__input field-text__input--email" type="email" placeholder="kuklachev@gmail.com" required="">
             </label>
             <label class="field-text">
               <span class="field-text__name">Телефон:*</span>
-              <input class="field-text__input field-text__input--telephone" type="tel" placeholder="8 (960) 900-60-90" required>
+              <input class="field-text__input field-text__input--telephone" type="tel" placeholder="8 (960) 900-60-90" required="">
             </label>
           </div>
           <div class="form__fields">
@@ -86,7 +91,7 @@
           <div class="form__fields form__fields-checkbox">
             <h2 class="form__fields-title form__fields-title--additional">Дополнительно</h2>
             <label class="field-checkbox">
-              <input class="field-checkbox__input" type="checkbox" checked>
+              <input class="field-checkbox__input" type="checkbox" checked="">
               <span class="field-checkbox__name">Сахарозаменитель</span>
             </label>
             <label class="field-checkbox">
@@ -120,7 +125,7 @@
           </div>
         </div>
       <div class="contact__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.320858716173472!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1557585366427!5m2!1sru!2sru" height="362" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.320858716173472!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1557585366427!5m2!1sru!2sru" height="362" style="border:0" allowfullscreen=""></iframe>
       </div>
     </div>
     <footer class="page-footer">
@@ -132,25 +137,38 @@
           <li class="social__item">
             <a class="social__link social__link--vk" href="#">
               <span class="visually-hidden">Вконтакте</span>
+              <svg width="22" height="12">
+                <use xlink:href="img/sprite.svg#icon-vk"></use>
+              </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link social__link--insta" href="#">
               <span class="visually-hidden">Инстаграмм</span>
+              <svg width="16" height="16">
+                <use xlink:href="img/sprite.svg#icon-insta"></use>
+              </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link social__link--fb" href="#">
               <span class="visually-hidden">Фейсбук</span>
+              <svg width="10" height="19">
+                <use xlink:href="img/sprite.svg#icon-fb"></use>
+              </svg>
             </a>
           </li>
         </ul>
         <p class="page-footer__copyright">
-          <span class="page-footer__copyright-title">HTML Academy</span>
+          <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__copyright-title">HTML Academy</a>
           <a class="page-footer__copyright-logo" href="https://htmlacademy.ru/intensive/adaptive">
+            <svg width="27" height="34">
+              <use xlink:href="img/sprite.svg#icon-htmlacademy"></use>
+            </svg>
           </a>
         </p>
       </div>
     </footer>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>

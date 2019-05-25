@@ -20,6 +20,18 @@
   }
 }
 
+.no-js .main-nav--closed {
+  display: block;
+}
+
+.js .main-nav--closed {
+  display: none;
+
+  @media (min-width: @tablet-width) {
+    display: block;
+  }
+}
+
 .main-nav__list {
   .no-list();
   display: flex;

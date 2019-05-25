@@ -1,0 +1,346 @@
+[33mcommit b60facda787f75a1efe2b0b966b54185ae1b5c22[m[33m ([m[1;36mHEAD -> [m[1;32mmodule6-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 23 23:31:17 2019 +0500
+
+    Вносит правки
+
+[33mcommit a8718be3be3516c51bd164fb166ff3d92934c4a7[m[33m ([m[1;31morigin/module6-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 23 01:24:05 2019 +0500
+
+    Доработки
+
+[33mcommit 00e05a83ae27bccd503555b4b80c85d2e54c000d[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 23 00:13:12 2019 +0500
+
+    Доработки JS
+
+[33mcommit c12c2c48d934c20947d3b6d5ec83ee28333cda63[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed May 22 23:42:27 2019 +0500
+
+    Добавляет JS
+
+[33mcommit 1dff3c2fe5f40abc1f9987e00cc4cc0a3c606a7e[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed May 22 21:41:12 2019 +0500
+
+    Адаптивная графика
+
+[33mcommit 3d67c72f3712cfb75f919b8424747188606c1dda[m
+Merge: d73177a 327ce23
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue May 21 14:39:26 2019 +0500
+
+    Merge branch 'master' of github.com:freeweball/622197-cat-energy-16
+
+[33mcommit 327ce234ca41adadb816af2fbe8bfe9e22245319[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2f99360 4adbed1
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue May 21 13:48:23 2019 +0500
+
+    Merge pull request #2 from freeweball/module5-task1
+    
+    Module5 task1
+
+[33mcommit d73177a4fdeef62281c91de572bac8cd7195ff19[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Tue May 21 11:15:20 2019 +0300
+
+    :gift: Добавляет остатки ретиновой и векторной графики
+
+[33mcommit 4adbed12eab7b574d167c8675b69d596f9433a10[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue May 21 02:02:42 2019 +0500
+
+    стили состояний
+
+[33mcommit 2962c2f6ccac442e576c7c7b56f1d1ad497f5c13[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue May 21 00:18:54 2019 +0500
+
+    Вносит правки в пути
+
+[33mcommit 39acdfe82ef21ee979df86461dcd64023c1b40e5[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue May 21 00:12:45 2019 +0500
+
+    Вносит правки в пути
+
+[33mcommit 039d412e70eca8cbac49a55daa9eaf4d1eec0d74[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Mon May 20 23:58:07 2019 +0500
+
+    Завершает стилизацию
+
+[33mcommit 1011f287d9105e8f95d240251be3796ef5056d8e[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Mon May 13 23:19:04 2019 +0500
+
+    Вносит правки
+
+[33mcommit 3347519f8ea794c90dcc5d211101f9749974403f[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Mon May 13 23:16:38 2019 +0500
+
+    Основное задание
+
+[33mcommit c35f40ab7b6076c8db6cbbf64a52a1cdc60a929c[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 9 01:06:48 2019 +0500
+
+    адаптивные декоративные элементы
+
+[33mcommit 7a03ce3df40bcee7fb07cbb1580ba96327509316[m
+Merge: 687e19b c3a18d8
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Sun May 5 12:57:39 2019 +0300
+
+    Merge pull request #6 from freeweball/module4-task1
+
+[33mcommit c3a18d81407790891bcfae3d688fc57d81893c9c[m[33m ([m[1;31morigin/module4-task1[m[33m, [m[1;32mmodule4-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Sat May 4 00:11:58 2019 +0500
+
+    создает сетки формы
+
+[33mcommit 62c299df11be9081fe160cc2a2bf9ee322de5790[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Fri May 3 22:57:20 2019 +0500
+
+    вносит исправления по замечаниям
+
+[33mcommit 2f99360376566a01f6619b1ea76a902d3ca2e5de[m
+Merge: 687e19b 5f190ae
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 2 22:33:43 2019 +0500
+
+    Merge pull request #1 from freeweball/module4-task1
+    
+    Module4 task1
+
+[33mcommit 5f190ae7416bfd0fb4718357e957d4a2ac7885be[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu May 2 22:17:41 2019 +0500
+
+    Переделывает сетку
+
+[33mcommit 2eb334cc392d2467cc239398252949579346b00b[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed May 1 01:39:11 2019 +0500
+
+    Вносит правки по расположению элементов
+
+[33mcommit 25ace3c877fd6215a4e185032b3810178f2f31c6[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue Apr 30 23:14:53 2019 +0500
+
+    Добавляет мета теги
+
+[33mcommit 9c9a6ccd71cabc5469d3697d0165e72e2bfb9e55[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue Apr 30 23:05:40 2019 +0500
+
+    Переносит @media в селектор
+
+[33mcommit 5b33a4d7633e5c39e42081209fd9e2a0b4a2e79b[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue Apr 30 21:58:40 2019 +0500
+
+    Убирает min-height во всех блоках и их элементах
+
+[33mcommit 1015b96381eae2a09024b3c59b55e2013dda0dbe[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Tue Apr 30 20:59:45 2019 +0500
+
+    Переносит box-sizing и outline на универсальный селектор
+
+[33mcommit ac8a316be0c1dd46f7438a8960f79fb1a8ffc100[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Mon Apr 29 01:30:16 2019 +0500
+
+    Создает адаптивную сетку
+
+[33mcommit 687e19bfb12022d7f686370a83a394085ffc24ad[m
+Merge: 73cd9b3 e07b478
+Author: Nikolay Gromov <nicothin@gmail.com>
+Date:   Fri Apr 26 12:27:49 2019 +0300
+
+    Merge pull request #5 from freeweball/module3-task2
+    
+    Бонусное задание: продолжаем вёрстку с препроцессором
+
+[33mcommit e07b4786d640c3f1f1618348e794d038c6fc062b[m[33m ([m[1;31morigin/module3-task2[m[33m, [m[1;32mmodule3-task2[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 25 20:25:05 2019 +0500
+
+    Вносит правки
+
+[33mcommit 73cd9b3ef714d301b6f4d3e6b33bd6211a47bc90[m
+Merge: 7baeb53 ee494da
+Author: Nikolay Gromov <nicothin@gmail.com>
+Date:   Thu Apr 25 12:38:41 2019 +0300
+
+    Merge pull request #4 from freeweball/module2-task2
+    
+    Бонусное задание: завершаем методичную разметку личного проекта
+
+[33mcommit 91a0315a247abe008e5ce4a923c1af4a1cb40dc1[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 25 00:30:31 2019 +0500
+
+    Завершает работу над бонусным заданием
+
+[33mcommit ee494daf37219bb9f228d8d71aed948427cd74ea[m[33m ([m[1;31morigin/module2-task2[m[33m, [m[1;32mmodule2-task2[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 24 17:41:15 2019 +0500
+
+    Вносит правки
+
+[33mcommit 5f366a4adb78bcc8870e025ca01877521d5f7cfc[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 24 00:26:05 2019 +0500
+
+    Вносит правки
+
+[33mcommit 4f7e269cda022ae0dbc9d6231d01e761a7b6a3e4[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Sun Apr 21 22:13:02 2019 +0500
+
+    Создает разметку последних блоков
+
+[33mcommit 7baeb5348eeedfbef659df8095dd9a30443f163d[m
+Merge: 1c46f6a 87f4ab0
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Sat Apr 20 21:32:16 2019 +0300
+
+    Merge pull request #3 from freeweball/module3-task1
+
+[33mcommit 87f4ab07759f1497964530b77f29dbd17caa0f71[m[33m ([m[1;31morigin/module3-task1[m[33m, [m[1;32mmodule3-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Fri Apr 19 22:05:42 2019 +0500
+
+    Вносит правки
+
+[33mcommit db4d68a8e25a3cf9cbca1912d5da885e3d9a6974[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 18 23:53:27 2019 +0500
+
+    Вносит корректные имена переменных
+
+[33mcommit 8aa7045786a5e79143bcfa2605dc8abda2c8f783[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 18 00:01:14 2019 +0500
+
+    Вносит правки по замечаниям
+
+[33mcommit 471a73feeca91e7d26f041e4ea7169d36f5b09fb[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 17 00:16:29 2019 +0500
+
+    Добавляет шрифты картинки и фоны
+
+[33mcommit 9ad77d108e90af46314b0465a1bc80afff371553[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Mon Apr 8 00:36:05 2019 +0500
+
+    Создает less файлы блоков
+
+[33mcommit 72adc49d87e51f952c54916316f356423b0cef8d[m
+Merge: 8c205ea 1c46f6a
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Sun Apr 7 22:22:13 2019 +0500
+
+    Merge branch 'master' of github.com:htmlacademy-adaptive/622197-cat-energy-16
+
+[33mcommit 1c46f6abd911e3331fdea5f6d0cce222bb7ba3d2[m
+Merge: 95e1b07 6288653
+Author: Nikolay Gromov <nicothin@gmail.com>
+Date:   Sat Apr 6 10:24:50 2019 +0300
+
+    Merge pull request #2 from freeweball/module2-task1
+    
+    Основное задание: начинаем методичную разметку личного проекта
+
+[33mcommit 8c205eaae8e782cbb4fa23e8fab2bb7949294459[m
+Merge: 9e59a97 95e1b07
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Fri Apr 5 23:21:42 2019 +0500
+
+    Merge branch 'master' of github.com:htmlacademy-adaptive/622197-cat-energy-16
+
+[33mcommit 95e1b070f54fa4045ea424d59534bed33be84975[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Fri Apr 5 21:19:00 2019 +0300
+
+    :kissing_cat: Добавляет сборку Less на Gulp
+
+[33mcommit 94e46c815fbc46cdb4d2cca145fd74009dc58cb8[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Fri Apr 5 21:18:52 2019 +0300
+
+    :gift: Нарезает графику для вёрстки
+
+[33mcommit 6288653ad50302b76ab12ad87b0dd5288596969b[m[33m ([m[1;31morigin/module2-task1[m[33m, [m[1;32mmodule2-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Fri Apr 5 23:14:24 2019 +0500
+
+    Вносит финальные правки
+
+[33mcommit 6bd768b55e271a574c00469aa7cea1edb1e57da3[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 4 23:41:50 2019 +0500
+
+    Вносит изменения по замечаниям разметки БЭМ
+
+[33mcommit 40bab56ee607653f01e0bf083d0b57bfbb0372f8[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 4 01:14:51 2019 +0500
+
+    Убирает лишнюю последнюю строку
+
+[33mcommit 01d3b7be1ccc4b61a204223351cfbf5c8302dec3[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Thu Apr 4 00:47:35 2019 +0500
+
+    Создает разметку catalog.html
+
+[33mcommit acc1a1430bca8d2e51db339bea83f7be3a367ae0[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 3 22:25:52 2019 +0500
+
+    Создает разметку form.html
+
+[33mcommit 1b9fb041e2acc3e8e54cfe90b9b96a12c827214b[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 3 22:10:27 2019 +0500
+
+    Создает разметку index.html
+
+[33mcommit 9e59a976d8bfd56416cc541561111b796409498e[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Wed Apr 3 21:58:08 2019 +0500
+
+    Завершает разметку index.html
+
+[33mcommit 8cfb6c8defa0e622c00e5f44e4584606d235c8c9[m
+Merge: 6cbc095 70d5640
+Author: Nikolay Gromov <nicothin@gmail.com>
+Date:   Fri Mar 29 23:20:11 2019 +0300
+
+    Merge pull request #1 from freeweball/module1-task1
+    
+    Проверка рабочего процесса
+
+[33mcommit 70d56409acb99d1fbfa5a7c7c80cbd43e27a2a34[m[33m ([m[1;31morigin/module1-task1[m[33m, [m[1;32mmodule1-task1[m[33m)[m
+Author: Aleksandr <asavostin1@gmail.com>
+Date:   Fri Mar 29 23:46:49 2019 +0500
+
+    Добавляет имя наставника
+
+[33mcommit 6cbc095e2a2f3850b0979c4ccc116ae84c7804b7[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Thu Mar 28 22:25:21 2019 +0300
+
+    :hatching_chick:
